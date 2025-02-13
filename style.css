@@ -1,0 +1,237 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    background: url('./images/food-bg.jpg') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+@keyframes blinkLight {
+    0% { box-shadow: 0 0 20px #ff5722; }
+    50% { box-shadow: 0 0 30px #f8b400; }
+    100% { box-shadow: 0 0 20px #ff5722; }
+}
+
+@keyframes buttonPulse {
+    0% { transform: scale(1); box-shadow: 0 0 10px #ff5722; }
+    50% { transform: scale(1.05); box-shadow: 0 0 20px #f8b400; }
+    100% { transform: scale(1); box-shadow: 0 0 10px #ff5722; }
+}
+
+@keyframes glowingBorder {
+    0% { border-color: #ff5722; }
+    50% { border-color: #f8b400; }
+    100% { border-color: #ff5722; }
+}
+
+.title {
+    font-size: 50px;
+    font-weight: bold;
+    color: #ff5722;
+    text-shadow: 3px 3px 8px rgba(255, 87, 34, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.mirchi {
+    font-size: 60px;
+    color:red;
+}
+
+.marquee-note {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    background-color: green;
+    padding: 12px;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.container {
+    background: linear-gradient(145deg, #1e1e1e, #252525);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2),
+                0px 0px 15px rgba(255, 87, 34, 0.5);
+    border: 2px solid #ff5722;
+    color: white;
+    animation: blinkLight 2s infinite alternate;
+}
+
+.menu-container {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 3px solid #007BFF;
+}
+
+.menu-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.menu-table th {
+    background-color: powderblue;
+    color: black;
+    font-weight: bold;
+    padding: 10px;
+    border: 2px solid #000;
+}
+
+.menu-table td {
+    background-color: white;
+    border: 2px solid black;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.menu-table tr:hover {
+    background-color: #00BFFF;
+    transition: 0.3s;
+}
+
+select, button {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #ff5722;
+    outline: none;
+    transition: all 0.3s;
+    animation: glowingBorder 2s infinite alternate;
+}
+
+select:focus {
+    box-shadow: 0 0 10px #ff5722;
+    border-color: #f8b400;
+}
+
+
+.container {
+    background: linear-gradient(145deg, #1e1e1e, #252525);
+    padding: 20px;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    margin: 40px auto;
+    box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.2),
+                0px 0px 15px rgba(255, 87, 34, 0.5);
+    border: 2px solid #ff5722;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+label {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5722;
+}
+
+select {
+    width: 80%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: 2px solid #ff5722;
+    outline: none;
+    transition: 0.3s;
+    background-color: white;
+}
+
+select:focus {
+    border-color: #f8b400;
+    box-shadow: 0 0 10px #f8b400;
+}
+/* Centering Content */
+.animated-text-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    background: black;
+    overflow: hidden;
+}
+
+/* Dual Panel Animation Effect */
+.animated-box {
+    display: flex;
+    position: relative;
+}
+
+/* Inner Panels */
+.animated-box .inner {
+    width: 300px;  /* Adjusted width to fit text */
+    height: 80px;  /* Adjusted height */
+    line-height: 80px;  /* Match height for centering */
+    font-size: 2.5em;  /* Reduced font size */
+    font-family: sans-serif;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+
+/* Left Panel */
+.animated-box .inner:first-child {
+    background-color: indianred;
+    color: darkred;
+    transform-origin: right;
+    transform: perspective(100px) rotateY(-15deg);
+}
+
+/* Right Panel */
+.animated-box .inner:last-child {
+    background-color: lightcoral;
+    color: antiquewhite;
+    transform-origin: left;
+    transform: perspective(100px) rotateY(15deg);
+}
+
+/* Scrolling Text */
+.animated-box .inner span {
+    position: absolute;
+    animation: marquee 5s linear infinite;
+}
+
+/* Delayed Animation for First Panel */
+.animated-box .inner:first-child span {
+    animation-delay: 2.5s;
+    left: -100%;
+}
+
+/* Marquee Animation */
+@keyframes marquee {
+    from { left: 100%; }
+    to { left: -100%; }
+}

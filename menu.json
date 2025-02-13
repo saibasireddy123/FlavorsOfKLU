@@ -1,0 +1,137 @@
+ {
+  "Andhra": {
+    "Monday": {
+      "Breakfast": ["Idly", "Meda Vadai", "Podi Sambar", "Palli Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Mango Pappu", "Tomato Rasam", "Chettinad Chicken Curry", "Kadai Paneer Gravy", "Buttermilk", "Appalam", "Pickle", "Lemon Juice"],
+      "Snacks": ["White Chenna Sundal", "Tea"],
+      "Dinner": ["Chappathi", "Mix Sundal Masala", "White Rice", "Tomato Rasam", "Curd Rice", "Pickle", "Milk", "Banana"]
+    },
+    "Tuesday": {
+      "Breakfast": ["Rava Upma", "Onion Bonda", "Coconut Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Tomato Pappu", "Aloo Kara Curry", "Jeera Charu", "Egg Gravy", "Boiled Egg", "Potato Fry", "Butter Milk", "Fryums", "Kara Pachadi"],
+      "Snacks": ["Cake", "Tea"],
+      "Dinner": ["Kal dosa", "Tomato Curry Chutney", "White Rice", "Rasam", "Curry leaves butter milk", "Pickle", "Badam Milk"]
+    },
+    "Wednesday": {
+      "Breakfast": ["Veg Kitchadi", "Keerai Vadai", "Coconut Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Andhra Style Sambar", "Vellulli Charu", "Gongura Chicken Masala", "Gobi 65", "ButterMilk", "Appalam", "Pickle", "Lemon Juice"],
+      "Snacks": ["Bonda", "Tea"],
+      "Dinner": ["Tomato Pulao", "Aloo Peas Curry", "White Rice", "Tomato Rasam", "Thick Butter Milk", "Pappu Patchadi", "Milk", "Banana"]
+    },
+    "Thursday": {
+      "Breakfast": ["Dosa", "Aloo Kuruma", "Coconut Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Gongura Pappu", "Dhal fry", "Tomato Charu", "Masala Ommelete", "Mix Veg 65", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Masala Pori", "Tea"],
+      "Dinner": ["White Rice", "Raw Tomato Pappu", "Rasam", "Brinjal Masala", "Masala butter milk", "Pickle", "BadamMilk"]
+    },
+    "Friday": {
+      "Breakfast": ["Idly", "Mysore Bonda", "Tiffen Sambar", "Coconut Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Meal Maker Biryani", "Brinjal Curry", "L.F Masal", "Miryala Charu", "ButterMilk", "Pappad", "Pickle", "Kesari"],
+      "Snacks": ["Sweet Bonda", "Tea"],
+      "Dinner": ["Chappathi", "Aloo Kuruma", "White Rice", "Tomato Rasam", "Ginger butter milk", "Pickle", "Milk"]
+    },
+    "Saturday": {
+      "Breakfast": ["Podi Dosa", "Veg Aravai Sambar", "Coconut Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Tomato Pappu", "Mix veg poriyal", "Kariveppu rasam", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Bhel Puri", "Tea"],
+      "Dinner": ["Gongura Pulao", "Aloo Kurma", "White Rice", "Tomato Rasam", "Thick butter milk", "Pachadi", "Milk", "Banana"]
+    },
+    "Sunday": {
+      "Breakfast": ["Pongal", "Uddin Vada", "Veg Kosthu", "Coconut Chutney", "Ragi Ambli", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Gongura Pappu", "Yam Chops", "Kothameera Saru", "Butter Milk", "Pappad", "Pickle", "Bread Halwa"],
+      "Snacks": ["Keerai Vada", "Tea"],
+      "Dinner": ["Channai Kushka", "O.T.C Raitha", "White Rice", "Tomato Rasam", "Curd Rice", "Pickle", "Milk"]
+    }
+  },
+
+    
+  "South": {
+    "Monday": {
+      "Breakfast": ["Samba Rava Kitchidi", "Sarkarai Pongal", "Sambar", "Peanut Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Raddish Sambar", "Mix Veg Poriyal", "Coriander Rasam", "Chettinad Chicken Curry", "Kadai Paneer Mushroom Gravy", "ButterMilk", "Appalam", "Pickle", "Lemon Juice"],
+      "Snacks": ["White Chenna Sundal", "Tea"],
+      "Dinner": ["Dosa", "Sambar", "Tomato Kara Chutney", "White Rice", "Garlic Rasam", "Curd Rice", "Pickle", "Milk", "Banana"]
+    },
+    "Tuesday": {
+      "Breakfast": ["Dosa", "Veg Sambar", "Mint Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Small Onion Brinjal Kulambu", "Cabbage Moong Poriyal", "Jeera Rasam", "Egg Gravy", "Boiled Egg", "Onion Pakoda", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Cake", "Ginger Tea"],
+      "Dinner": ["Veg Noodles", "Mix Sauce", "White Rice", "Dhal Rasam", "Curd Rice", "Pickle", "Badam Milk"]
+    },
+    "Wednesday": {
+      "Breakfast": ["Veg Semiya Kitchidi", "Masal Vada", "Veg Sambar", "Coconut Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Brinjal Drumstick Sambar", "Snake Gourd Poriyal", "Dal Rasam", "Chicken Masala", "Gobi 65", "ButterMilk", "Appalam", "Pickle"],
+      "Snacks": ["Aloo Bonda", "Tea"],
+      "Dinner": ["Chappathi", "Aloo Kurma", "White Rice", "Tomato Rasam", "Curd Rice", "Red Chilli Coconut Thuviyal", "Milk", "Banana"]
+    },
+    "Thursday": {
+      "Breakfast": ["Pongal", "Keerai Vadai", "Brinjal Kosthu", "Coconut Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Aloo Khol Curry Kulambu", "Bottle Gourd Kootu", "Garlic Rasam", "Masala Ommelette", "Mix Veg 65", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Masala Pori", "Cardamom Tea"],
+      "Dinner": ["Idly", "Sambar", "Chutney", "White Rice", "Dhal Rasam", "Curd Rice", "Pickle", "Badam Milk"]
+    },
+    "Friday": {
+      "Breakfast": ["Rawa Upma", "Masala Vada", "Red Chilli Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Raddish Sambar", "Mix Veg Kootu", "Mysore Rasam", "ButterMilk", "Pappad", "Pickle", "Semiya Payasam"],
+      "Snacks": ["Sweet Bonda", "Tea"],
+      "Dinner": ["Veg Pulao", "Aloo Kurma", "White Rice", "Tomato Rasam", "Curd Rice", "Pickle", "Milk"]
+    },
+    "Saturday": {
+      "Breakfast": ["Idly", "Sambar", "Tomato Kara Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Drumstick Sambar", "Urulai & Pattani Poriyal", "Tomato Rasam", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Bhel Puri", "Tea"],
+      "Dinner": ["Dosa", "Mix Veg Khorma", "Chutney", "White Rice", "Pepper Rasam", "Curd Rice", "Pickle", "Milk", "Banana"]
+    },
+    "Sunday": {
+      "Breakfast": ["Pongal", "Medu Vadai", "Veg Sambar", "Coconut Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["White Rice", "Surya Kulambu", "Cluster Beans Poriyal", "Pepper Rasam", "ButterMilk", "Fryums", "Pickle", "Bread Halwa"],
+      "Snacks": ["Keerai Vada", "Tea"],
+      "Dinner": ["Chennai Kushka", "O.T.C Raitha", "White Rice", "Tomato Rasam", "Curd Rice", "Pickle", "Milk"]
+    }
+  },
+    
+  "North": {
+    "Monday": {
+      "Breakfast": ["Aloo Phoha", "Subzi Ki Meloni", "Sarkarai Pongal", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Cube salad", "Chappathi", "Channa Masala", "White Rice", "Aloo Gobi Dry", "Kadai Chicken Curry", "Kadai Paneer Gravy", "ButterMilk", "Papad", "Pickle", "Lemon Juice"],
+      "Snacks": ["White Chenna Sundal", "Tea"],
+      "Dinner": ["Chappathi", "Mirchi Ka Salan", "Tomato Pulao", "Dal Fry", "White Rice", "Butter Milk", "Pickle", "Milk", "Banana"]
+    },
+    "Tuesday": {
+      "Breakfast": ["Mooli Paratha", "Corriander Chutney", "Dhal Kitchidi", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Fried Mirchai & Onion", "Chappathi", "Masoor ki Dal", "White Rice", "Veg Jaipuri", "Egg Gravy", "Boiled Egg", "Onion Pakoda/ Raw Banana Tawa Fry", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Cake", "Tea"],
+      "Dinner": ["Chappathi", "Veg Makhani", "Jeera Pulao", "Soyabari Curry/ Fried Chilly", "Onion", "White Rice", "Curd", "Pickle/ No Pickle", "Milk"]
+    },
+    "Wednesday": {
+      "Breakfast": ["Pav", "Bhajji", "Semiya Bath", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Tossed salad", "Chappathi", "Veg Shahi Korma", "White Rice", "Aloo Bujia", "Palak Chicken Masala", "Gobi 65", "ButterMilk", "Papad", "Pickle", "Lemon Juice"],
+      "Snacks": ["Bonda", "Tea"],
+      "Dinner": ["Chappathi", "Veg Achari", "Veg Pulao", "Brinjal Potato Masala", "White Rice", "Curd", "Pickle", "Milk", "Banana"]
+    },
+    "Thursday": {
+      "Breakfast": ["Poori", "Potato Bajji", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Green salad", "Chappathi", "Lauki Masala", "White Rice", "Gujarati Dal", "Masala Omlette", "Gobi 65/ Yam Tawa Fry", "Buttermilk", "Fryums", "Pickle"],
+      "Snacks": ["Masala Puri", "Tea"],
+      "Dinner": ["Chappathi", "Veg Shahi Khorma", "Coriander Pulao", "Dal Tadka", "White Rice", "Butter Milk", "Pickle", "Milk"]
+    },
+    "Friday": {
+      "Breakfast": ["Chappathi", "Chenna Pindi", "Uppuma", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Tossed salad", "Chappathi", "Aloo Bhujia", "White Rice", "Methi Dal", "Aloo Bhindi Dry", "ButterMilk", "Papad", "Pickle", "Semiya Payasam"],
+      "Snacks": ["Sweet Bonda", "Tea"],
+      "Dinner": ["Chappathi", "Chenna Pindi", "Veg Noodles/ Tomato Sauce", "Dal Maharani", "White Rice", "Curd", "Pickle", "Milk"]
+    },
+    "Saturday": {
+      "Breakfast": ["Aloo Paratha", "Mint Chutney", "Uppuma", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Veg Julienne Salad", "Chappathi", "Aloo Palak Masala", "White Rice", "Dal Fry", "Kadai Veg Dry", "ButterMilk", "Fryums", "Pickle"],
+      "Snacks": ["Bhel Puri", "Tea"],
+      "Dinner": ["Chappathi", "Gobi Peas Masala", "Mint Pulao", "Red Pumpkin Masala", "White Rice", "ButterMilk", "Pickle", "Milk", "Banana"]
+    },
+    "Sunday": {
+      "Breakfast": ["Bhatura", "Chole", "Bread Slice (In House)", "Jam", "Coffee"],
+      "Lunch": ["Carrot & Cucumber Salad", "Veg Biryani", "Onion Raitha", "White Rice", "Moong Dal Fry", "ButterMilk", "Fryums", "Pickle", "Bread Halwa"],
+      "Snacks": ["Keerai Vada", "Tea"],
+      "Dinner": ["Veg Pulao", "Gobi Dopiyaz", "Chappathi", "Cauliflower Masala", "White Rice", "Curd", "Pickle", "Milk"]
+    }
+  }
+}

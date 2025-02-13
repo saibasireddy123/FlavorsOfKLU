@@ -1,6 +1,6 @@
 {
   "name": "Flavors of KLU",
-  "short_name": "Flavors KLU",
+  "short_name": "Flavors of KLU",
   "description": "Your daily mess menu with a beautiful UI.",
   "start_url": "/index.html",
   "display": "standalone",

@@ -84,7 +84,7 @@
     },
     "Sunday": {
       "Breakfast": ["Pongal", "Medu Vadai", "Veg Sambar", "Coconut Chutney", "Ragi Koozh", "Chilli", "Bread Slice (In House)", "Jam", "Coffee"],
-      "Lunch": ["White Rice", "Surya Kulambu", "Cluster Beans Poriyal", "Pepper Rasam", "ButterMilk", "Fryums", "Pickle", "Bread Halwa"],
+      "Lunch": ["White Rice", "Surya Kulambu", "Custer Beans Poriyal", "Pepper Rasam", "ButterMilk", "Fryums", "Pickle", "Bread Halwa"],
       "Snacks": ["Keerai Vada", "Tea"],
       "Dinner": ["Chennai Kushka", "O.T.C Raitha", "White Rice", "Tomato Rasam", "Curd Rice", "Pickle", "Milk"]
     }
@@ -125,7 +125,7 @@
       "Breakfast": ["Aloo Paratha", "Mint Chutney", "Uppuma", "Bread Slice (In House)", "Jam", "Coffee"],
       "Lunch": ["Veg Julienne Salad", "Chappathi", "Aloo Palak Masala", "White Rice", "Dal Fry", "Kadai Veg Dry", "ButterMilk", "Fryums", "Pickle"],
       "Snacks": ["Bhel Puri", "Tea"],
-      "Dinner": ["Chappathi", "Gobi Peas Masala", "Mint Pulao", "Red Pumpkin Masala", "White Rice", "ButterMilk", "Pickle", "Milk", "Banana"]
+      "Dinner": ["Chappathi", "Gobi Peas Masala", "Mint Pulao", "Red Pumpking Masala", "White Rice", "ButterMilk", "Pickle", "Milk", "Banana"]
     },
     "Sunday": {
       "Breakfast": ["Bhatura", "Chole", "Bread Slice (In House)", "Jam", "Coffee"],

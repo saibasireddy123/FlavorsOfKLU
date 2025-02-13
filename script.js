@@ -1,3 +1,5 @@
+// script.js
+
 let menuData = {};
 
 // Load the menu data from menu.json
@@ -45,3 +47,12 @@ function fetchMenu() {
 document.getElementById("mess_type").addEventListener("change", fetchMenu);
 document.getElementById("day").addEventListener("change", fetchMenu);
 document.getElementById("category").addEventListener("change", fetchMenu);
+
+// Register Service Worker
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/service-worker.js")
+            .then(() => console.log("✅ Service Worker Registered Successfully"))
+            .catch(error => console.log("🚨 Service Worker Registration Failed:", error));
+    });
+}

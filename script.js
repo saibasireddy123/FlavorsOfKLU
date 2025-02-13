@@ -1,22 +1,22 @@
-// script.js
-
 let menuData = {};
 
-// Load the menu data from menu.json
-fetch('menu.json')
-    .then(response => {
-        if (!response.ok) {
-            throw new Error("Network response was not ok");
-        }
-        return response.json();
-    })
-    .then(data => {
-        menuData = data;
-        console.log("✅ Menu data loaded successfully:", menuData);
-    })
-    .catch(error => {
-        console.error("🚨 Error loading menu data:", error);
-    });
+// Load the menu data from menu.json (ensuring it fetches fresh data)
+function loadMenuData() {
+    fetch('menu.json?' + new Date().getTime()) // Cache-busting trick
+        .then(response => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.json();
+        })
+        .then(data => {
+            menuData = data;
+            console.log("✅ Menu data loaded successfully:", menuData);
+        })
+        .catch(error => {
+            console.error("🚨 Error loading menu data:", error);
+        });
+}
 
 // Function to update menu dynamically
 function fetchMenu() {
@@ -48,11 +48,37 @@ document.getElementById("mess_type").addEventListener("change", fetchMenu);
 document.getElementById("day").addEventListener("change", fetchMenu);
 document.getElementById("category").addEventListener("change", fetchMenu);
 
-// Register Service Worker
+// Register Service Worker with Auto-Update
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", () => {
         navigator.serviceWorker.register("/service-worker.js")
-            .then(() => console.log("✅ Service Worker Registered Successfully"))
+            .then((registration) => {
+                console.log("✅ Service Worker Registered Successfully");
+
+                // Check for updates and apply them
+                if (registration.waiting) {
+                    console.log("🔄 New service worker waiting...");
+                    registration.waiting.postMessage({ type: "SKIP_WAITING" });
+                }
+
+                registration.addEventListener("updatefound", () => {
+                    const newWorker = registration.installing;
+                    newWorker.addEventListener("statechange", () => {
+                        if (newWorker.state === "installed" && navigator.serviceWorker.controller) {
+                            console.log("🆕 New update available. Refreshing...");
+                            window.location.reload();
+                        }
+                    });
+                });
+            })
             .catch(error => console.log("🚨 Service Worker Registration Failed:", error));
     });
+
+    navigator.serviceWorker.addEventListener("controllerchange", () => {
+        console.log("🔄 New service worker activated, reloading page...");
+        window.location.reload();
+    });
 }
+
+// Load menu data when the script runs
+loadMenuData();
